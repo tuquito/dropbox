@@ -2,8 +2,8 @@ Source: dropbox
 Section: admin
 Priority: optional
 Maintainer: Mario Colque <mario@tuquito.org.ar>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
 
 Package: dropbox
 Architecture: all
