@@ -1,0 +1,12 @@
+Source: dropbox
+Section: admin
+Priority: optional
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: dropbox
+Architecture: all
+Depends: nautilus-dropbox
+Description: Easily share and sync files across computers and mobile devices with free space online.
+ Put your files into your Dropbox on one computer, and they'll be instantly available on any of your other computers that also have Dropbox installed (Windows, Mac, Linux, Android, iPhone/iPad...etc). Because copies of your files are stored on Dropbox's secure servers, you can also access them from any computer or mobile device using the Dropbox website.
