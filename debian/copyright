@@ -1,8 +1,35 @@
-License:
+    Copyright (C) 2009 Evenflow, Inc.
 
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License version 3 as published by
-   the Free Software Foundation.
+All images included in this package constitute data and are not licensed
+for you to use under the terms of the GPL. You may not use the images
+included in this package for any reason other than redistributing
+this package without first obtaining permission from Evenflow, Inc.
+You are explicitly forbidden from using these images in any other
+software package. This includes the files:
 
-The Debian packaging is (C) 2007, Mario Colque <mario@tuquito.org.ar> and
-is licensed under the GPLv3, see above.
+/usr/share/icons/hicolor/16x16/apps/dropbox.png
+/usr/share/icons/hicolor/22x22/apps/dropbox.png
+/usr/share/icons/hicolor/24x24/apps/dropbox.png
+/usr/share/icons/hicolor/32x32/apps/dropbox.png
+/usr/share/icons/hicolor/48x48/apps/dropbox.png
+/usr/share/icons/hicolor/64x64/apps/dropbox.png
+
+All program source in this package is released under the terms of the
+GNU GPL below.
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
