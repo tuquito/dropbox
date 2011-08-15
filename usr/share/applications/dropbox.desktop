@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Dropbox
+Name[en_US]=Dropbox
+Comment=File transfer and sharing
+Exec=dropbox
+Icon=dropbox
+Terminal=false
+Type=Application
+Categories=Network;

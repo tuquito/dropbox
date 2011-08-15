@@ -1,3 +1,9 @@
+dropbox (1.0.4) natty; urgency=low
+
+  * installer fixed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 15 Aug 2011 16:16:39 -0300
+
 dropbox (1.0.3) natty; urgency=low
 
   * Adaptación para Tuquito

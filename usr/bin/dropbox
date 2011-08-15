@@ -1,0 +1,28 @@
+#!/bin/sh
+ARCH=`arch`
+if [ -f $HOME/fakelib.c ]; then
+	exec $HOME/.dropbox-dist/dropboxd
+else
+	(
+	cd
+	echo "15"
+	if [ "$ARCH" = "x86_64" ]; then
+		wget -O dropbox.tar.gz http://www.getdropbox.com/download?plat=lnx.x86_64 ;
+	elif [ "$ARCH" = "i686" ]; then
+		wget -O dropbox.tar.gz http://www.getdropbox.com/download?plat=lnx.x86 ;
+	else
+		zenity --error --text "Unable to determine architecture."
+		exit 1
+	fi
+	echo "60"
+	tar zxof dropbox.tar.gz ;
+	echo "80"
+	wget http://dl.getdropbox.com/u/6995/dbmakefakelib.py ;
+	echo "90"
+	sleep 1 ;
+	echo "100"
+	) | zenity --progress --title="Dropbox" --text="Setting up Dropbox" --auto-close ;
+	cd
+	python dbmakefakelib.py
+fi
+exit 0
